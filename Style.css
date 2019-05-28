@@ -1,0 +1,20 @@
+html{
+    font-family: Arial;
+}
+.contenedor{
+    width: 70;
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+body{
+    background-size: 100%;
+}
+header{
+    margin: 20px 0;
+    /*background-color: #ffc890; */
+}
+header h1 {
+    padding: 20px 0;
+    text-align: center;
+}
