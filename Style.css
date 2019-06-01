@@ -1,14 +1,22 @@
 html{
-    font-family: Arial;
+	font-family: Arial;
 }
 .contenedor{
-    width: 70;
+    width: 80%;
     max-width: 1000px;
     margin: 0 auto;
     overflow: hidden;
 }
 body{
-    background-size: 100%;
+	background-size: 100%;
+	background-image:
+	url(IMG/wallpaper.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed
+}
+.centrado{
+	margin:10px auto;
+	display:block; 
 }
 header{
     margin: 20px 0;
@@ -18,3 +26,47 @@ header h1 {
     padding: 20px 0;
     text-align: center;
 }
+.main {
+    width: 70%;
+	margin: 0px;
+	 
+    
+} 
+ 
+.menu {
+	width: 100%;
+	max-width:1000px;
+	margin:auto;
+	text-align: center;
+}
+ 
+header nav {
+	background:#504d4d;
+	opacity: 0.5;
+	margin-bottom:10px;
+	border-radius: 50px;
+}
+ 
+header nav ul {
+	list-style: none;
+	overflow: hidden;
+	text-align: center;
+}
+ 
+header nav ul li {
+	float: left;
+}
+ 
+header nav ul li a {
+	display: block ;
+	padding:20px;
+	color:#fff;
+ 	text-decoration: none;
+}
+ 
+header nav ul li a:hover {
+	background:#000000;
+	opacity: 1;
+}
+ 
+ 
